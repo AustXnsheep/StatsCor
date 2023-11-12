@@ -1,0 +1,11 @@
+name: StatsCore
+version: '${project.version}'
+main: git.austxnsheep.statscore.StatsCore
+api-version: '1.20'
+
+commands:
+  EditNBT:
+    description: Modify the NBT data of the item you're holding
+    usage: /modifyitem <key> <value> <type>
+    permission: modifyitem.use
+    aliases: [moditem, setitemdata]
